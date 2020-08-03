@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         let total = bill + tip
         
         
-//        //------
+//
         let currencyFormatter = NumberFormatter()
         currencyFormatter.usesGroupingSeparator = true
         currencyFormatter.numberStyle = .currency
@@ -58,13 +58,12 @@ class ViewController: UIViewController {
         let tipFormatted = currencyFormatter.string(from: NSNumber(value: tip))!
         let totalFormatted = currencyFormatter.string(from: NSNumber(value: total))!
 //          print(tipFormatted) // Displays tip in the US locale
-//        //-----
-        
+//
         // Update the tip and total labels
-        //tipLabel.text = "$\(tip)"
+//        tipLabel.text = "$\(tip)"
 //        tipLabel.text = String(format: "$%.2f", tip)
         tipLabel.text = tipFormatted
-        //totalLabel.text =  "$\(total)"
+//        totalLabel.text =  "$\(total)"
 //        totalLabel.text = String(format: "$%.2f", total)
         totalLabel.text = totalFormatted
     }
