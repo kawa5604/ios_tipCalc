@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onTap(_ sender: Any) {
-        print("Hello")
+        //print("Hello")
         
         //dismiss keyboard
         view.endEditing(true)
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         // Calculate the tip and total
         // Swift array accessed like a c array
-        let tipPercentages = [0.15, 0.18, 0.2]
+        let tipPercentages = [0.10, 0.15, 0.18, 0.20]
         // tipControl (as declared above) is the name of the SegmentedControl view
         // when you select value change on the tipControl view box, accessing the
         // selectedSegmentIndex gives you the index number which then gets the value from tipP
