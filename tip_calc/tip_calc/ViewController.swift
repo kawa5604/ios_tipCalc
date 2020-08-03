@@ -46,11 +46,27 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
         
+        
+//        //------
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+//        // localize to your grouping and decimal separator
+        currencyFormatter.locale = Locale.current
+//
+//        // We'll force unwrap with the !, if you've got defined data you may need more error checking
+        let tipFormatted = currencyFormatter.string(from: NSNumber(value: tip))!
+        let totalFormatted = currencyFormatter.string(from: NSNumber(value: total))!
+//          print(tipFormatted) // Displays tip in the US locale
+//        //-----
+        
         // Update the tip and total labels
         //tipLabel.text = "$\(tip)"
-        tipLabel.text = String(format: "$%.2f", tip)
+//        tipLabel.text = String(format: "$%.2f", tip)
+        tipLabel.text = tipFormatted
         //totalLabel.text =  "$\(total)"
-        totalLabel.text = String(format: "$%.2f", total)
+//        totalLabel.text = String(format: "$%.2f", total)
+        totalLabel.text = totalFormatted
     }
 }
 
