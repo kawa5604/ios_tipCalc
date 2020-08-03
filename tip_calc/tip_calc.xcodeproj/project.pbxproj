@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		52BA831324D7A82E00C9C8A1 /* iconA.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BA831224D7A82E00C9C8A1 /* iconA.png */; };
+		52BA831524D7AD1700C9C8A1 /* iconB.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BA831424D7AD1700C9C8A1 /* iconB.png */; };
+		52BA831724D7AD9700C9C8A1 /* iconC.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BA831624D7AD9700C9C8A1 /* iconC.png */; };
 		52E20C4024CF402F0022BCA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E20C3F24CF402F0022BCA9 /* AppDelegate.swift */; };
 		52E20C4224CF402F0022BCA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E20C4124CF402F0022BCA9 /* SceneDelegate.swift */; };
 		52E20C4424CF402F0022BCA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E20C4324CF402F0022BCA9 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		52BA831224D7A82E00C9C8A1 /* iconA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconA.png; sourceTree = "<group>"; };
+		52BA831424D7AD1700C9C8A1 /* iconB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconB.png; sourceTree = "<group>"; };
+		52BA831624D7AD9700C9C8A1 /* iconC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconC.png; sourceTree = "<group>"; };
 		52E20C3C24CF402F0022BCA9 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E20C3F24CF402F0022BCA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E20C4124CF402F0022BCA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				52E20C4824CF40330022BCA9 /* Assets.xcassets */,
 				52E20C4A24CF40330022BCA9 /* LaunchScreen.storyboard */,
 				52E20C4D24CF40330022BCA9 /* Info.plist */,
+				52BA831624D7AD9700C9C8A1 /* iconC.png */,
+				52BA831424D7AD1700C9C8A1 /* iconB.png */,
 				52BA831224D7A82E00C9C8A1 /* iconA.png */,
 			);
 			path = tip_calc;
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BA831324D7A82E00C9C8A1 /* iconA.png in Resources */,
+				52BA831524D7AD1700C9C8A1 /* iconB.png in Resources */,
 				52E20C4C24CF40330022BCA9 /* LaunchScreen.storyboard in Resources */,
 				52E20C4924CF40330022BCA9 /* Assets.xcassets in Resources */,
+				52BA831724D7AD9700C9C8A1 /* iconC.png in Resources */,
 				52E20C4724CF402F0022BCA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
